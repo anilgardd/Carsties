@@ -1,0 +1,35 @@
+{
+    // Enable quick suggestions in the editor for C#
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    // Enable code actions (Quick Fixes) for C#
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    // Enable IntelliSense for C# (if not already enabled by default)
+    "editor.suggestOnTriggerCharacters": true, // Show suggestions as you type
+    // Enable codeLens (shows references and other code actions)
+    "editor.codeLens": true,
+    // Enable auto-formatting on save (C#)
+    "editor.formatOnSave": true,
+    // Enable parameter hints for functions/methods
+    "editor.parameterHints": true,
+    // Enable auto-closing brackets and quotes
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    // Enable auto-correcting suggestions in comments and strings
+    "editor.snippetSuggestions": "top",
+    // Enable C# formatting
+    "[csharp]": {
+        "editor.tabSize": 4, // Set tab size to 4 spaces for C#
+        "editor.formatOnSave": true
+    },
+    // Enable C# linting (if using Roslyn or analyzers)
+    "csharp.format.enable": true,
+    // Show suggestions inline while typing
+    "editor.inlineSuggest.enabled": true
+}
