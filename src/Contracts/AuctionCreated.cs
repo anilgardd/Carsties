@@ -1,8 +1,8 @@
-using MongoDB.Entities;
-namespace SearchService;
+namespace Contracts;
 
-public class Item : Entity
+public class AuctionCreated
 {
+    public Guid Id { get; set; }
     public int ReservePrice { get; set; }
     public string Seller { get; set; }
     public string Winner { get; set; }
